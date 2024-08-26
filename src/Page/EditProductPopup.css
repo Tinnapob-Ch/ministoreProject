@@ -1,0 +1,63 @@
+   .close-btn-edit{
+    margin-top:-3%;
+    margin-left: 75%;
+    background-color: transparent;
+    color: #000;
+    font-size: 24px; /* เพิ่มขนาดของไอคอนกากบาท */
+   }
+
+   .close-btn-edit:hover {
+    background-color:   transparent; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  }
+
+  .popup-edit-context{
+    margin-top: -2%;
+    margin-left: 13%;
+    width: 70%;
+   }
+
+   .popup-edit-form{
+    margin-top: 2%;
+    margin-left: 4%;
+
+   }
+
+   .detail-edit-name{
+    margin-left: 2%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+
+   }
+   .detail-edit-type{
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+   }
+  
+   .detail-edit-price{
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+   }
+  
+   .detail-edit-image{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+   }
+  
+   .submit-edit{
+    margin-left: 33%;
+    margin-top: 3%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    background-color: #4caf50;
+   }
+   .submit-edit:hover {
+    background-color: #419744; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  }
+  

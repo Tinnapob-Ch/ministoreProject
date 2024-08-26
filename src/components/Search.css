@@ -1,0 +1,46 @@
+.Search-container {
+    display: flex;
+    flex-direction: column; /* จัดเรียงเป็นแนวตั้ง */
+    height: 13vh;
+    margin-top: 3%; /* ขยับลงมาจากด้านบน */
+    margin-left: 30%; /* ขยับช่องค้นหาไปทางด้านขวา */
+    margin-right: 40px; /* ขยับช่องค้นหาไปทางด้านซ้าย */
+    transition: width 0.5s; /* เพิ่ม transition เมื่อเปลี่ยนขนาด */
+}
+
+.Search-input {
+    max-width: 240%; /* กำหนดความกว้างสูงสุดเป็น 240% */
+    width: 240%; /* ทำให้ช่องค้นหาขยายตามขนาดของพื้นที่ที่มีอยู่ */
+    padding: 10px;
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    border-radius: 50px;
+    margin-bottom: 20px; /* ขยับ input ลงจากด้านบน */
+    background-color: #f7f6f6;
+}
+
+.Search-input:focus {
+    outline: none;
+    border-color: #ebebeb;
+    /* ไม่ต้องมีการเปลี่ยนแปลงความกว้างเมื่อมีการโฟกัส */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 240%; /* กำหนดความกว้างของรายการผลลัพธ์ */
+    margin: 0; /* ลบ margin ที่มีอยู่เริ่มต้น */
+    padding-inline-start: 0; /* ลบ padding ด้านซ้ายของรายการ */
+}
+li {
+    padding: 10px; /* เพิ่มระยะห่างของรายการผลการค้นหา */
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff; /* กำหนดพื้นหลังสีขาว */
+}
+
+li:last-child {
+    border-bottom: none; /* ลบเส้นขอบที่สุดท้าย */
+}
+
+li:hover {
+    background-color: #f5f5f5; /* กำหนดสีพื้นหลังเมื่อโฮเวอร์ */
+}

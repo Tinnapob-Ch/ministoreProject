@@ -1,0 +1,49 @@
+.card-container-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 5vw;
+}
+
+.button-buy {
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    padding: 12px 40px;
+    background-color: #fff;
+    border: 3px solid #203179;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #203179;
+}
+.button-buy a {
+    color: #203179;
+    text-decoration: none; /* เอาเส้นใต้ข้อความออก */
+}
+
+
+.button-buy:hover {
+    background-color: #203179;
+    color: #fff;
+}
+
+.button-buy:hover a{
+    background-color: #203179;
+    color: #ffffff;
+}
+
+.home-title {
+    margin-left: 15rem;
+    margin-bottom: -4%;
+    margin-top: -2%;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+  }
+  
+  
+    

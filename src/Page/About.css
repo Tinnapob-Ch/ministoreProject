@@ -1,0 +1,164 @@
+
+.container-force {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-manage{
+  margin-top: 1%;
+  margin-right: 53%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.add-product-btn-container {
+  margin-bottom: 20px;
+  margin-left: 81%;
+}
+
+.add-product-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-product-btn:hover {
+  background-color: #419744; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+
+.product-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  margin-left: 10%;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.product-table td {
+  background-color: #ffffff;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.button-update,
+.button-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-update {
+  background-color: #aeaeae;
+  color: rgb(255, 251, 251);
+}
+
+.button-update:hover {
+  background-color: #000000; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+.button-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.button-delete:hover {
+  background-color: #bc342a; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+.popup-delete {
+  position: fixed;
+  margin-top: 10%;
+  background-color: rgb(223, 223, 223);
+  width: 30%;
+  height: 20%;
+  padding: 1%;
+  border-radius: 20px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+  border: 2px solid #ccc; /* เพิ่มเส้นขอบ */
+}
+
+.popup-delete.active {
+  transform: translateY(0); /* เลื่อนลงมาที่ตำแหน่งเริ่มต้นของหน้าจอ */
+}
+
+.button-confirm-delete{
+ margin-left: 17%;
+ background-color: #4caf50;
+}
+.button-confirm-delete:hover {
+  background-color: #419744; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+.popup-text{
+  margin-left: 12%;
+}
+
+
+.button-cancel-delete{
+  margin-top: 3%;
+  margin-left: 3%;
+  background-color: #f44336;
+}
+.button-cancel-delete:hover {
+  background-color: #d53a2f; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+
+.button-close-delete {
+  margin-top: -70%;
+  margin-left: 80%;
+  justify-self: end;
+  background-color: transparent;
+  color: #000;
+}
+
+.button-close-delete:hover {
+  background-color:   transparent; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+}
+
+.popup-edit{
+  position: fixed;
+ margin-top: 10%;
+ background-color: rgb(223, 223, 223);
+ width: 23vw;
+ height: 30%;
+ border-radius: 20px; 
+ border: 2px solid #ccc; 
+ margin-left: -15%;
+} 
+
+
+.popup-add{
+  position: fixed;
+  margin-top: 10%;
+  background-color: rgb(223, 223, 223);
+  width: 24.2vw;
+  height: 40%;
+  border-radius: 20px; 
+  border: 2px solid #ccc; 
+  margin-left: -15%;
+  padding: 1%;
+}

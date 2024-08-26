@@ -1,0 +1,20 @@
+.card-container-rec {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* ปรับขนาดของการ์ดตามความกว้างของหน้าจอ */
+  margin-right: 100px; /* ขยับการ์ดไปทางขวาเล็กน้อย */
+  margin-left: 100px; /* ขยับการ์ดไปทางขวาเล็กน้อย */
+  margin-top: 20px;
+  margin-bottom: 3%;
+}
+
+.recommend-title {
+  margin-left: 15rem;
+  margin-bottom: 20 px;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+  
+}
+
+

@@ -1,0 +1,78 @@
+.close-btn-add {
+    margin-top:2%;
+    margin-left: 75%;
+    background-color: transparent;
+    color: #000;
+    font-size: 24px; /* เพิ่มขนาดของไอคอนกากบาท */
+}
+
+.close-btn-add:hover {
+    background-color:   transparent; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  }
+
+.popup-add-context{
+    margin-top: -6%;
+    width: 79%;  
+   }
+  
+.popup-add-form{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.detail-add-id {
+    margin-left: 5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    width: 13.2rem;
+}
+.detail-add-name {
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    width: 11.5rem;
+}
+.detail-add-price {
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    width: 12rem;
+}
+.detail-add-category {
+    margin-top: 3%;
+    margin-left: 2%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    width: 10.7rem;
+}
+.detail-add-type {
+    margin-top: 3%;
+    margin-left: 1.5%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    margin-bottom: 1%;
+    margin-right: 2%;
+    width: 12.67rem;
+}
+
+.detail-image{
+    margin-left: 1%;
+}
+.detail-add-image {
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 3px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    width: 9.8rem;
+}
+.submit-add {
+    margin-left: 34%;
+    margin-top: 7%;
+    border-radius: 5px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+    border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+    background-color: #4caf50;
+}
+.submit-add:hover {
+    background-color: #419744; /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  }

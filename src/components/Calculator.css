@@ -1,0 +1,54 @@
+.calculator {
+  margin-top: 8%; 
+  float: right; 
+  margin-right: 5%;
+  width: 25vw;
+  height: 40vh;
+  background-color: #ffffff00;
+  padding: 2vw;
+  position: fixed;
+  right: 5%; 
+  top: 10%; 
+}
+
+.title-text-cal {
+    font-weight: bold;
+    font-size: 2.5vw; /* กำหนดขนาดตัวหนังสือในหน่วยของ viewport */
+    margin-bottom: 1vw; /* กำหนดระยะห่างด้านล่างเป็น 2vw ในหน่วยของ viewport */
+}
+.right-align {
+    float: right;
+  }
+
+.text-detail-cal {
+    font-size: 1vw; /* กำหนดขนาดตัวหนังสือในหน่วยของ viewport */
+    margin-bottom: 0.5vw;
+}
+.text-total-cal {
+    font-weight: bold;
+    font-size: 1vw; /* กำหนดขนาดตัวหนังสือในหน่วยของ viewport */
+    margin-bottom: 1vw;
+    margin-top: 2.5vw; /* กำหนดระยะห่างด้านบนเป็น 1vw ในหน่วยของ viewport */ /* กำหนดระยะห่างด้านล่างเป็น 2vw ในหน่วยของ viewport */
+}
+  
+  .line-above,
+  .line-below {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #d2d2d2; /* สีของเส้นบนและล่างที่คุณต้องการ */
+  }
+  
+  .line-above {
+    top: 10.5vw; /* ระยะห่างบนที่คุณต้องการ */
+  }
+  
+  .line-below {
+    bottom: auto; /* ระยะห่างล่างที่คุณต้องการ */
+  }
+  
+.text-note-cal {
+    font-size: 1vw; /* กำหนดขนาดตัวหนังสือในหน่วยของ viewport */
+    margin-top: 2vw;
+}

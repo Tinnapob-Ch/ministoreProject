@@ -1,0 +1,85 @@
+.container-max {
+  margin-top:10%;
+   margin-bottom: 10%; /* ปรับตามความต้องการ */
+ }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%; /* ปรับตำแหน่งของการ์ดจากขอบซ้าย */
+  margin-bottom: 3%;
+  margin-top: -1%;
+}
+
+.card {
+  margin: 2%;
+  border: 2px solid #ededed;
+  padding: 2%;
+  cursor: pointer;
+  width: 25%; /* ปรับขนาดความกว้างของการ์ด */
+}
+
+.card img {
+  width: 100%; /* ปรับขนาดรูปภาพให้เต็มความกว้างของพ่อมัน */
+  height: auto; /* กำหนดความสูงของรูปภาพ */
+  object-fit: cover; /* ทำให้ภาพขนาดใหญ่พอเหมาะและตัดภาพเพื่อให้พอดีกับพื้นที่ที่กำหนดไว้ */
+  border-radius: 8px; /* เพิ่มขอบมนให้กับรูปภาพ */
+  margin-bottom: 5%;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* จัดเนื้อหาให้อยู่ทางซ้ายตามแนวนอน */
+  align-items: flex-start; /* จัดเนื้อหาให้อยู่ทางซ้ายตามแนวตั้ง */
+}
+
+
+.bag-icon {
+  color: #535353;
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+}
+.btn {
+  border: 2px solid transparent; /* เปลี่ยนเป็นเส้นขอบโปร่งใส */
+  background-color: transparent; /* ลบสีพื้นหลังของปุ่ม */
+  font-weight: bold; /* เพิ่มความหนาให้กับตัวหนังสือในปุ่ม */
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 8px 60px;
+}
+
+
+.like-btn {
+  font-size: 28px;
+  color: #c0c0c0;
+  transition: color 0.3s ease;
+  margin-left: 70%;
+  background-color: transparent; /* กำหนดสีพื้นหลังให้เป็นโปร่งใส */
+  border: none; /* ลบเส้นขอบ */
+}
+
+.like-btn.active {
+  color: red;
+  background-color: transparent; /* กำหนดสีพื้นหลังให้เป็นโปร่งใส */
+}
+
+
+.add-to-cart-btn {
+  color: #ababab;
+  border-color: #b2b2b2;
+  font-size: 16px;
+  margin-top: 5%;
+  transition: border-color 0.3s ease; /* เพิ่ม transition เพื่อทำให้เส้นขอบมีเอฟเฟคเมื่อโฮเวอร์ */
+}
+
+.add-to-cart-btn:hover {
+  color: #ffffff;
+  border-color: #000000; /* เปลี่ยนสีของเส้นขอบปุ่มเข้าตะกร้าเมื่อโฮเวอร์ */ 
+  background-color: #000000; /* เพิ่มสีพื้นหลังให้กับปุ่ม */
+}

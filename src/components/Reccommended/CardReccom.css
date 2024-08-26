@@ -1,0 +1,32 @@
+ .product-image-rec {
+  margin: 0 auto;
+  height: auto;
+  width: 400px;
+  position: relative;
+  margin-left: 50px; /* ปรับค่า margin-left เพื่อขยับไปทางซ้าย */
+ } 
+
+.product-rec {
+  position: relative;
+}
+
+
+/* .product-rec:hover .product-image-rec {
+  filter: brightness(0.7); 
+} */
+
+.product-image-rec:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+.product-title-rec {
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(220, 46, 46);
+  color: white;
+  text-align: center;
+} 

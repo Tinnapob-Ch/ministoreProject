@@ -1,0 +1,64 @@
+.container-cart {
+  margin-top: 20%;
+
+}
+
+.product-image-cart {
+  width: 200px;
+  height: auto;
+}
+
+.product-details-cart{
+  margin-top: -10%;
+  margin-left: 15%;
+}
+
+.cart-title {
+  margin-top: -9%;
+  margin-left: 15%;
+}
+
+.cart-de{
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 20%;
+
+ 
+}
+
+.cart-items {
+  margin-left: 9%;
+  margin-top: 3%;
+ 
+}
+.cart-item{
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.product-title-cart{
+  margin-bottom: 1%;
+}
+
+.btn-container{
+  margin-left: -5%;
+}
+.remove-from-cart-btn{
+  color: rgb(0, 0, 0);
+  background-color:  rgb(228, 228, 228); /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  border: 1px solid #c2c2c2; /* เพิ่มเส้นขอบ */
+  border-radius: 10px; /* เพิ่ม border-radius เพื่อให้มีขอบมน */
+}
+
+.remove-from-cart-btn:hover {
+  background-color:  rgb(255, 80, 80); /* เปลี่ยนเป็นสีเขียวเมื่อนำเมาส์ไปแตะ */
+  color: #000;
+}
+
+.cal-cart {
+  margin-top: -50%; /* ปรับตำแหน่งตามความต้องการ */
+  top: 25%; /* ปรับตำแหน่งตามความต้องการ */
+  right: 2%; /* ปรับตำแหน่งตามความต้องการ */
+}
+
+

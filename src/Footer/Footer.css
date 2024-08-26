@@ -1,0 +1,28 @@
+/* .footer-container {
+  background-color: #e8e8e8;
+  color: #fff;
+  width: 100%;
+  min-height: 100px; 
+  max-height: 15vw;
+  display: flex;
+  align-items: flex-start;
+  margin-top: auto; 
+  padding-left: 5vw; 
+  padding-right: 5vw;
+  justify-content: center;
+} */
+
+.footer-container {
+  bottom: 0; 
+  width: 100%;
+  background-color: #e8e8e8;
+  
+}
+
+
+.footer-container img {
+  width: 65%; 
+  height: auto;
+  margin: auto;
+  display: block; /* เพื่อให้ margin: auto; ทำงาน */
+}
